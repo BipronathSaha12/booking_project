@@ -148,7 +148,7 @@ booking_platform/
 ---
 
 ## **License**
-This project is for **client purpose** under [MIT LICENSE](https://github.com/BipronathSaha12/Event-ticket-booking-system/blob/main/LICENSE).
+This project is for **client purpose** under [MIT LICENSE](https://github.com/BipronathSaha12/booking_project/blob/main/LICENSE)
 
 ---
 
