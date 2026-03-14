@@ -1,0 +1,113 @@
+body{
+
+background:#f4f7fb;
+
+font-family:"Poppins",sans-serif;
+
+}
+
+/* navbar */
+
+.navbar-custom{
+
+background:linear-gradient(135deg,#4f46e5,#6366f1);
+
+padding:15px;
+
+}
+
+/* cards */
+
+.service-card{
+
+background:white;
+
+border-radius:12px;
+
+overflow:hidden;
+
+box-shadow:0 15px 35px rgba(0,0,0,0.1);
+
+transition:.3s;
+
+}
+
+.service-card:hover{
+
+transform:translateY(-8px);
+
+}
+
+/* image */
+
+.service-img{
+
+width:100%;
+
+height:220px;
+
+object-fit:cover;
+
+}
+
+/* price */
+
+.price{
+
+font-size:22px;
+
+font-weight:bold;
+
+color:#4f46e5;
+
+margin-bottom:15px;
+
+}
+
+/* button */
+
+.btn-book{
+
+background:#4f46e5;
+
+color:white;
+
+border-radius:30px;
+
+padding:10px 25px;
+
+}
+
+/* success */
+
+.success-box{
+
+text-align:center;
+
+padding:100px;
+
+}
+
+.checkmark{
+
+width:100px;
+
+height:100px;
+
+border-radius:50%;
+
+background:#22c55e;
+
+margin:auto;
+
+animation:pop .6s ease;
+
+}
+
+@keyframes pop{
+
+0%{transform:scale(0)}
+
+100%{transform:scale(1)}
+
+}

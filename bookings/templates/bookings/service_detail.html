@@ -1,0 +1,18 @@
+<h2>{{ service.name }}</h2>
+<img src="{{ service.image.url }}" alt="{{ service.name }}" width="300">
+<p>{{ service.description }}</p>
+<p>Price: ${{ service.price }}</p>
+
+<form method="post" id="bookingForm">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Book Now</button>
+</form>
+
+<div id="payment-loader" style="display:none;">Processing payment...</div>
+
+<script>
+document.getElementById('bookingForm').addEventListener('submit', function(){
+    document.getElementById('payment-loader').style.display = 'flex';
+});
+</script>

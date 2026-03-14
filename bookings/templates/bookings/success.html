@@ -1,0 +1,6 @@
+<h2>Booking Confirmed!</h2>
+<p>Service: {{ booking.service.name }}</p>
+<p>Date: {{ booking.date }}</p>
+{% if booking.qr_code %}
+<img src="{{ booking.qr_code.url }}" alt="QR Code" width="200">
+{% endif %}

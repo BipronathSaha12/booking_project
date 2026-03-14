@@ -1,0 +1,6 @@
+{% extends 'bookings/base.html' %}
+{% block content %}
+<h1>Thank you {{ booking.name }}!</h1>
+<p>Your booking for {{ booking.service.name }} on {{ booking.date }} is confirmed.</p>
+<p>A confirmation email with your PDF ticket has been sent to {{ booking.email }}.</p>
+{% endblock %}
