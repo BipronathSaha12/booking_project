@@ -18,7 +18,9 @@
       {% endif %}
     </td>
     <td>
-      {% if not booking.paid %}
+      {% if booking.paid %}
+        <a href="{% url 'download_ticket' booking.id %}" class="btn btn-sm btn-secondary">Download Ticket</a>
+      {% else %}
         <a href="{% url 'pay_booking' booking.id %}" class="btn btn-sm btn-primary">Pay now</a>
       {% endif %}
     </td>
